@@ -1,0 +1,53 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "okr_go",
+  "outputfilename": "OKR任务看板",
+  "frontend": {
+    "dir": "./frontend",
+    "install": "npm install",
+    "build": "npm run build",
+    "dev": "npm run dev",
+    "package": {
+      "manager": "npm"
+    }
+  },
+  "author": {
+    "name": "OKR Team",
+    "email": "team@okr.com"
+  },
+  "info": {
+    "companyName": "OKR Inc.",
+    "productName": "OKR 任务看板",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright © 2024, OKR Inc. All rights reserved.",
+    "comments": "AI-powered OKR task management application"
+  },
+  "nsisType": "multiple",
+  "obfuscated": false,
+  "debug": {
+    "openInspectorOnStartup": false
+  },
+  "windows": {
+    "theme": "light",
+    "customTheme": {
+      "dark": {
+        "TitleText": "#F0F0F0",
+        "TitleBackground": "#1E1E1E"
+      },
+      "light": {
+        "TitleText": "#000000",
+        "TitleBackground": "#F0F0F0"
+      }
+    },
+    "resizable": true,
+    "disableWindowIcon": false
+  },
+  "darwin": {
+    "bundleId": "com.okr.taskboard",
+    "category": "public.app-category.productivity",
+    "minVersion": "10.15.0",
+    "signing": {
+      "identity": "-"
+    }
+  }
+}

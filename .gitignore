@@ -1,0 +1,14 @@
+
+frontend/node_modules/
+go.sum
+build/appicon.png
+build/.DS_Store
+.env
+.DS_Store
+build/darwin/Info.plist
+okr_test/build/appicon.png
+okr_test/
+build/bin/okr_go.app/Contents/Info.plist
+build/bin/okr_go.app/Contents/MacOS/OKR任务看板
+build/bin/okr_go.app/Contents/Resources/iconfile.icns
+build/windows/wails.exe.manifest
